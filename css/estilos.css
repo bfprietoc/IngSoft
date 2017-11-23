@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+/*Definimos el tipo de fuente*/
+body{
+  font-family: 'Lato', sans-serif;
+}
+/*Colores del jumbotron*/
+.jumbotron {
+  background: #13124f;
+  color: #fff;
+  border-radius: 0px;
+  padding: 15px;
+  padding-bottom: 50px;
+}
+/*Boton en el jumbotron*/
+.jumbotron a{ /* Definimos los atributos para la etiqueta de leer mas de nuestra pagina index */
+  display: block;
+  width: 150px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  padding: 7px;
+  margin-top: 10px;
+  background: #f61067;
+}
+/*Cambio de color del boton del jumbotron*/
+.jumbotron a:hover{ /* Creamos el fondo oscuro cuando pasamos el mouse por encima*/
+  background: #fff;
+  color: #f61067;
+}
+/*Definimos margenes superior e inferior*/
+.main{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/*Linea de separacion del article*/
+.title{
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #999;
+}
+.post{
+  
+}
+.main  .col-md-4 .text a{
+  width: 100%;
+  background: #f61067;
+  color: #fff;
+  border-color: #f61067;
+  margin-bottom: 20px;
+}
+.main  .col-md-4 .text a span{
+  background: #352ba5;
+}
+.main .col-md-4 .text a:hover{
+  background: #fff;
+  color: #f61067;
+}
+.main  .col-md-4 .text a span:hover{
+  background: #fff;
+  color:  #f61067;
+}
+.article{
+  padding-bottom: 15px;
+}
+.welcome{
+  background: #9090a5;
+  color: #fff;
+  padding: 10px 5px 5px 10px;
+}
+.text-purple{
+  background: #13124f;
+  color: #fff;
+  padding: 15px 15px 10px 15px;
+}
+.form-control{
+  background: #1b1b6c;
+  color: #9090a5;
+  border-top: 2px solid #9090a5;
+  border-bottom: 3px solid #9090a5;
+  margin-bottom: 15px;
+}
+.contenedor-a{
+  background: #352ba5;
+  text-align: center;
+  font-size: 10px;
+  text-decoration: underline;
+  padding: 10px 5px 10px 10px;
+  margin-bottom: 15px;
+}
+.contenedor-a a{
+  color: #fff;
+}
+.box{
+  padding: 10px 5px 15px 10px;
+  border: 1px solid #9090a5;
+}
+.progress{
+  background: #2ad392;
+  margin-bottom: 15px;
+}
+.progress-bar{
+  background: #f61067;
+}
+.btn-primary{
+  width: 49%;
+  color: #fff;
+  text-align: center;
+  background: #f61067;
+  border: 3px solid #f61067;
+}
+.btn-secondary{
+  width: 49%;
+  color: #2ad392;
+  text-align: center;
+  background: #fff;
+  border: 3px solid #2ad392;
+}
